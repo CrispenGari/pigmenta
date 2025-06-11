@@ -5,8 +5,6 @@
 - **Author**: `Crispen Gari`
 - **Python Compatibility**: Python `3.10+`
 
----
-
 <p align="center">
   <a href="https://pypi.python.org/pypi/pigmenta"><img src="https://badge.fury.io/py/pigmenta.svg"></a>
   <a href="https://github.com/crispengari/pigmenta/actions/workflows/ci.yml"><img src="https://github.com/crispengari/pigmenta/actions/workflows/ci.yml/badge.svg"></a>
@@ -14,13 +12,25 @@
   <a href="https://pypi.python.org/pypi/pigmenta"><img src="https://img.shields.io/pypi/pyversions/pigmenta.svg"></a>
 </p>
 
----
+### Table of Contents
+
+- [📘 pigmenta](#-pigmenta)
+- [Table of Contents](#table-of-contents)
+- [🌈 Overview](#-overview)
+- [🚀 Features](#-features)
+- [📦 Installation](#-installation)
+- [🧪 Usage](#-usage)
+  - [Example with Matplotlib](#example-with-matplotlib)
+  - [🎨 Available Palettes](#-available-palettes)
+- [🛠️ Custom Palettes](#️-custom-palettes)
+- [💡 Use Cases](#-use-cases)
+- [🧩 Future Plans](#-future-plans)
+- [📬 Contributing](#-contributing)
+- [📝 License](#-license)
 
 ### 🌈 Overview
 
 `pigmenta` is a lightweight Python package that provides easy access to a curated collection of beautiful color palettes. It is designed for developers, designers, data scientists, and artists who want to use harmonious and theme-based color palettes in visualizations, UI design, machine learning plots, or generative art.
-
----
 
 ### 🚀 Features
 
@@ -29,8 +39,6 @@
 - Easy integration with libraries like Matplotlib, Seaborn, Plotly, or your own app.
 - Simple API via a class or dictionary.
 - Extensible and open-source.
-
----
 
 ### 📦 Installation
 
@@ -43,8 +51,6 @@ pip install pigmenta
 ```bash
 pip install git+https://github.com/yourusername/pigmenta.git
 ```
-
----
 
 ### 🧪 Usage
 
@@ -75,8 +81,6 @@ plt.title("Bar chart using pigmenta")
 plt.show()
 ```
 
----
-
 #### 🎨 Available Palettes
 
 Here are the palette names you can access via `PALETTES.<name>`:
@@ -95,8 +99,6 @@ PALETTES.sky
 PALETTES.christmas
 ```
 
----
-
 ### 🛠️ Custom Palettes
 
 You can also register or override palettes by modifying the `COLORS` dictionary directly if allowed by your API:
@@ -107,8 +109,6 @@ from pigmenta.core import COLORS
 COLORS['custom'] = ['#111111', '#222222', '#333333']
 ```
 
----
-
 ### 💡 Use Cases
 
 - Visualizing data in elegant color themes.
@@ -116,20 +116,14 @@ COLORS['custom'] = ['#111111', '#222222', '#333333']
 - Generative art and graphics programming.
 - Branding and UI prototyping.
 
----
-
 ### 🧩 Future Plans
 
 - Add support for gradient generation.
 - Integration with design tools or Jupyter extensions.
 
----
-
 ### 📬 Contributing
 
 Contributions, bug reports, and palette suggestions are welcome! Please open an issue or pull request on the [GitHub repository](https://github.com/crispengari/pigmenta).
-
----
 
 ### 📝 License
 
