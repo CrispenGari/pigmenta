@@ -3,7 +3,11 @@
 - **Version**: `0.0.1`
 - **License**: [`MIT`](/LICENSE)
 - **Author**: `Crispen Gari`
-- **Python Compatibility**: Python `3.10+`
+- **Python Compatibility**: Python `3.9+`
+
+<p align="center">
+  <img src="/images/logo.png" alt="logo" width="200">
+</p>
 
 <p align="center">
   <a href="https://pypi.python.org/pypi/pigmenta"><img src="https://badge.fury.io/py/pigmenta.svg"></a>
@@ -46,7 +50,7 @@
 pip install pigmenta
 ```
 
-> _Note: If `pigmenta` you can install it directly from a GitHub repo:_
+> _Note: You can install it directly from a GitHub repo:_
 
 ```bash
 pip install git+https://github.com/yourusername/pigmenta.git

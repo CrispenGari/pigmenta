@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.0.2] - `2025-06-12`
+
+### Updated
+
+- Expanded and restructured documentation for Read the Docs.
+  - Added detailed usage examples.
+  - Included custom palette instructions.
+  - Formatted in reStructuredText (.rst) for Sphinx compatibility.
+
+---
+
 ## [0.0.1] - `2025-06-11`
 
 ### Added
