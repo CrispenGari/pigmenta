@@ -1,6 +1,6 @@
 ### 📘 pigmenta
 
-- **Version**: `0.0.1`
+- **Version**: `0.0.2`
 - **License**: [`MIT`](/LICENSE)
 - **Author**: `Crispen Gari`
 - **Python Compatibility**: Python `3.9+`
